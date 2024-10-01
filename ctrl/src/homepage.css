@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.aura-container {
+    padding: 0; 
+    margin-bottom: 60px;
+    
+}
+
+body {
+    background-color: #131313; /* Dark gray background for the entire page */
+}
+
+.offers h2{
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-size: 96px;
+    color: #F4F35A;
+    margin-right: 150px;
+
+
+}
+.offers p{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #F4F35A;
+    margin-right: -75px;
+    text-align: left;
+
+}
+
+
+.offers h2 .italic-text {
+    font-style: italic;
+}
+
+.eco{
+
+    width: 778.971px;
+    height: 799.138px;
+    flex-shrink: 0;
+    background-image: url(../src/assets/eco.png);
+    background-size: cover;
+    background-position: center;
+    margin-top: 80px;
+
+}
+
+.port{
+    margin-top: 360px;
+}
+
+.port h3 {
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    color: #F4F35A;
+    font-size: 64px;
+    text-align: right;
+    padding-bottom: 80px;
+}
+
+.port h3 .italic-text {
+    font-style: italic;
+}
+
+.port p{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #F4F35A;
+    text-align: right;
+    padding-bottom: 30px;
+
+}
+
+.port button{
+    width: 275px;
+    background-color: #131313;
+    border-radius: 26.5px;
+    border: 1px solid #F4F35A;
+    color: #F4F35A;
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-size: 24px;
+    margin-left: 370px;
+    
+}
+
+.port button:hover{
+    background-color: #EB662B;
+    
+}

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* Base styles for the container, row, and columns to ensure full width and no text alignment issues */
+.container, .row, .col-12 {
+    padding: 0; 
+    margin-left: 1px; 
+    text-align: center;  
+}
+
+.container-fluid {
+    background-color: #131313;  /* Ensures the background color for the whole page */
+}
+
+/* Styling for the .aura component with centered text and a vibrant gradient background */
+.aura {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: red;  /* Initial color before gradient is visible */
+    width: 1360px;
+    height: 585px;
+    margin: auto; 
+    border-radius: 20px;
+    border: none;  /* Assuming no border is needed, remove or adjust if needed */
+    background: linear-gradient(270deg, #F4F35A, #EB662B);
+    background-size: 400% 400%;
+    animation: AnimationName 10s ease infinite;
+}
+
+@keyframes AnimationName {
+    0%, 100% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 1360px) {
+    .aura {
+        width: 100%;  /* Full width for smaller screens */
+        height: auto;  /* Auto-adjust height based on content */
+        padding: 20px;  /* Maintain padding for aesthetic spacing */
+    }
+
+    .aura h1 {
+        font-size: calc(16px + 2vw);  /* Dynamically scales with the viewport width */
+    }
+
+    .aura p {
+        font-size: calc(12px + 1vw);  /* Dynamically scales with the viewport width */
+    }
+}
+
+/* Text styling for headings and paragraphs within .aura */
+.aura h1 {
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 55px;  /* Adjust size as needed */
+    text-align: center;
+    padding-bottom: 70px;  /* Adjust padding to manage spacing */
+    color: white;  /* Ensures text color is white for better visibility */
+}
+
+.aura p {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: white;  /* Ensures text color is white for better visibility */
+}

@@ -1,0 +1,35 @@
+.card{
+    width: 420px;
+    height: 556px;
+    border-radius: 20px;
+    flex-shrink: 0;
+    border: 2px dashed #F4F35A; 
+    margin-top: 70px;
+    background-color: #131313;
+    padding-top: 440px;
+    padding-left: 20px;
+}
+
+.card:hover{
+    background-color: #EB662B;
+    
+}
+
+.card h3{
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    color: #F4F35A;
+    font-size: 32px;
+    text-align: left;
+
+}
+
+.card p{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #F4F35A;
+    font-size: 16px;
+    text-align: left;
+
+}
+
