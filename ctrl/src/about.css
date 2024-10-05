@@ -23,8 +23,34 @@
     font-family: "Inter", sans-serif;
     font-weight: 400;
     color: #F4F35A;
+    margin-right: 70px;
+    padding-bottom: 70px;
 
 }
+
+.heading2 h1{
+    padding-top: 50px;
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-size: 55px;
+    color: #F4F35A;
+    padding-bottom: 50px;
+    margin-top: 240px;
+    margin-left: 130px;
+}
+
+.heading2 .italic-text {
+    font-style: italic;
+}
+
+.heading2 p{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #F4F35A;
+    margin-right: -10px;
+
+}
+
 
 .port{
     margin-top: 330px;
@@ -46,6 +72,7 @@
     font-weight: 400;
     color: #F4F35A;
     text-align: left;
+
 }
 
 .port .italic-text {

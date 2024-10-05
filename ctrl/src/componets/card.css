@@ -6,8 +6,8 @@
     border: 2px dashed #F4F35A; 
     margin-top: 70px;
     background-color: #131313;
-    padding-top: 440px;
-    padding-left: 20px;
+    padding-top: 360px;
+    justify-content: left;
 }
 
 .card:hover{
