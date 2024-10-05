@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="row">
                 <div className="col-md-12">
                     <div className="CTA">
-                        <p>Let’s get physical, or keep it digital:</p>
+                        <p>Let’s get physical, or keep it digital:</p> <br/>
                         <h3>GET STARTED</h3>
                     </div>
                 </div>

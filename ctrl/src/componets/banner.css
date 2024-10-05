@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.banner {
+    overflow: hidden;
+    position: relative;
+    width: calc(100% + 2px);  /* Slightly wider to hide borders */
+    margin-left: 50px;        
+    white-space: nowrap;
+    padding-top: 80px;
+
+}
+
+.banner h1 {
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-size: 66px;
+    color: #F4F35A;
+    display: inline-block;
+    animation: scrollBanner 30s linear infinite;
+}
+
+@keyframes scrollBanner {
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(-50%); } /* Adjust based on content length */
+}
+
+.banner h1 .italic-text {
+    font-style: italic;
+}

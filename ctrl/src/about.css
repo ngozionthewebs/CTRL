@@ -1,1 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.col-6{
+    padding-top: 80px;
+}
+.heading{
+    margin-top: 100px;
+    margin-left: 90px;
+}
+.heading h1{
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-size: 55px;
+    color: #F4F35A;
+    padding-bottom: 50px;
+}
+
+.heading .italic-text {
+    font-style: italic;
+}
+
+.heading p{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #F4F35A;
+
+}
+
+.port{
+    margin-top: 330px;
+    margin-left: 70px;
+    width: 500px;
+}
+
+.port h1{
+    text-align: left;
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-size: 55px;
+    color: #F4F35A;
+    padding-bottom: 40px;
+}
+
+.port p{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #F4F35A;
+    text-align: left;
+}
+
+.port .italic-text {
+    font-style: italic;
+}
+
+.work{
+    width: 778.971px;
+    height: 799.138px;
+    background-image: url(../src/assets/work.png);
+    background-size: cover;
+    background-position: center;
+
+}

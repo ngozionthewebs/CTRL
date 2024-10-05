@@ -17,17 +17,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: red;  /* Initial color before gradient is visible */
+    background-image: url(../assets/aura.png);
+    background-position: center;
+    background-size: cover;  /* Initial color before gradient is visible */
     width: 1360px;
     height: 585px;
     margin: auto; 
     border-radius: 20px;
-    border: none;  /* Assuming no border is needed, remove or adjust if needed */
+    border: none;  /* Assuming no border is needed, remove or adjust if needed 
     background: linear-gradient(270deg, #F4F35A, #EB662B);
     background-size: 400% 400%;
-    animation: AnimationName 10s ease infinite;
+    animation: AnimationName 10s ease infinite; */
 }
 
+/*
 @keyframes AnimationName {
     0%, 100% {
         background-position: 0% 50%;
@@ -36,6 +39,7 @@
         background-position: 100% 50%;
     }
 }
+*/
 
 /* Responsive adjustments for smaller screens */
 @media (max-width: 1360px) {
