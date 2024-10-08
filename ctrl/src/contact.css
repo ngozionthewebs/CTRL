@@ -1,1 +1,90 @@
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.heading3 h1{
+    text-align: left;
+    padding-left: 50px;
+    color: #F4F35A;
+    font-size: 128px;
+    font-family: "Instrument Serif", serif;
+    font-weight: 400
+}
+
+.body p{
+    text-align: left;
+    color: #F4F35A;
+    padding-top: 220px;
+
+    
+}
+
+.contact-image{
+    width: 560px;
+    height: 677px;
+    background-color: red;
+    background-image: url(../src/assets/contact.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    border: 1px solid #F4F35A;
+    margin-left: 70px;
+    margin-top: 60px;
+}
+
+/* Overall form alignment */
+.form {
+    text-align: left;
+    margin-left: 35px;
+
+  }
+  
+  /* Style for all field headings */
+  .form-label {
+    color: #F4F35A;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 20px;
+  }
+  
+  /* Styles for all input fields including placeholders */
+  .form-control {
+    border-radius: 10px;
+    border: 1px dashed #F4F35A;
+    background-color: #131313;
+    color: #FFF; /* Ensures text in inputs is visible */
+    font-size: 24px; /* Keeps input text size consistent with placeholder */
+  }
+  
+  /* Placeholder specific style */
+  .form-control::placeholder {
+    color: rgba(244, 243, 90, 0.7);
+    font-size: 14px;
+  }
+  
+  /* Checkbox label styling */
+  .form-check-label {
+    color: #F4F35A;
+    font-size: 14px;
+
+  }
+  
+  /* Checkbox input styling */
+  .form-check-input {
+    accent-color: #F4F35A; /* Customizes the color of checkboxes */
+  }
+  
+  /* Button specific styles */
+  .btn-primary {
+    color: #F4F35A;
+    border-radius: 26.5px;
+    border: 1px solid #F4F35A;
+    background-color: #131313;
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-size: 22px;
+  }
+  
+  /* Ensure form controls and button fill the width of the form area */
+  .form-control, .btn-primary {
+    width: 100%; /* Optional, depends on desired form width */
+  }
+  

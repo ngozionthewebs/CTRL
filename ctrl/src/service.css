@@ -1,1 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.heading3 h1{
+    text-align: left;
+    padding-left: 50px;
+    color: #F4F35A;
+    font-size: 128px;
+    font-family: "Instrument Serif", serif;
+    font-weight: 400
+}
+
+.body{
+    text-align: left;
+    color: #F4F35A;
+
+    
+}
+
+.block{
+    width: 100%;
+    margin-left: 50px;
+    margin-top: 60px;
+    background: #F4F35A;
+    border-radius: 20px;
+    border: 1px dashed #EB662B;
+
+}
+
+.block:hover{
+    cursor: pointer;
+    background-color: #131313;
+
+}
+
+.heading4{
+    text-align: left;
+    padding-left: 50px;
+    padding-bottom: 0px;
+    margin-top: 270px;
+    
+}
+
+.heading4 h1{
+    padding-bottom: 30px;
+    font-size: 64px;
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    color: #EB662B;
+}
+
+.heading4 p{
+    margin-left: -103px;
+    padding-bottom: 40px;
+    color: #EB662B;
+
+}
+
+.body-copy p{
+    color: #EB662B;
+    text-align: left;
+    padding-top: 60px;
+}
